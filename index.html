@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universe Knowledge Project</title>
+    <style>
+        /* CSS STYLES */
+        body {
+            background-color: #020617; /* Very dark blue/black */
+            color: #ffffff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #0f172a;
+            width: 100%;
+            padding: 30px 0;
+            text-align: center;
+            border-bottom: 2px solid #1e293b;
+        }
+
+        header h1 {
+            color: #22d3ee; /* Bright Cyan */
+            margin: 0;
+            font-size: 26px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        header p {
+            color: #94a3b8;
+            margin-top: 8px;
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: #1e293b;
+            width: 100%;
+            padding: 12px 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #22d3ee;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 500px;
+            margin-top: 20px;
+            padding-bottom: 50px;
+        }
+
+        .card {
+            background-color: #0f172a;
+            margin-bottom: 30px;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+            border: 1px solid #1e293b;
+        }
+
+        .card h2 {
+            color: #22d3ee;
+            font-size: 22px;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .card img {
+            width: 100%;
+            max-width: 350px;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #334155;
+        }
+
+        .card p {
+            color: #e2e8f0;
+            line-height: 1.6;
+            font-size: 16px;
+            margin: 0;
+        }
+
+        footer {
+            background-color: #0f172a;
+            width: 100%;
+            padding: 25px 0;
+            text-align: center;
+            border-top: 2px solid #1e293b;
+            margin-top: auto;
+        }
+
+        footer p {
+            margin: 0;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🌌 Universe Knowledge</h1>
+        <p>Explore the Amazing Universe</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Solar System</a>
+        <a href="#">Galaxy</a>
+        <a href="#">Black Hole</a>
+        <a href="#">Nebula</a>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h2>Solar System</h2>
+            <img src="sun.png" alt="Solar System">
+            <p>The Solar System consists of the Sun and all the objects that move around it. There are eight planets including Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. Earth is the only known planet where life exists.</p>
+        </div>
+
+        <div class="card">
+            <h2>Galaxy</h2>
+            <img src="galaxy.png" alt="Galaxy">
+            <p>A galaxy is a huge collection of stars, gas, dust, and planets held together by gravity. Our galaxy is called the Milky Way. Scientists believe there are billions of galaxies in the universe.</p>
+        </div>
+
+        <div class="card">
+            <h2>Black Hole</h2>
+            <img src="blackhole.png" alt="Black Hole">
+            <p>A black hole is a place in space where gravity is extremely strong. Nothing can escape from it, not even light. Black holes are formed when massive stars collapse at the end of their life cycle.</p>
+        </div>
+
+        <div class="card">
+            <h2>Nebula</h2>
+            <img src="nebula.png" alt="Nebula">
+            <p>A nebula is a giant cloud of gas and dust in space. Many new stars are born inside nebulae. They are some of the most colorful and beautiful objects in the universe.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Universe Knowledge Project</p>
+    </footer>
+
+</body>
+</html>
